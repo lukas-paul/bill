@@ -1,0 +1,15 @@
+# Generated invoices + their metadata sidecars
+out/
+
+# Personal / private data — copy the *.example.json templates instead
+config.json
+config.de.json
+clients.json
+invoice.json
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store

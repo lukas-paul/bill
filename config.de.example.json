@@ -1,0 +1,24 @@
+{
+  "language": "de",
+  "sender": {
+    "name": "Dein Name / Firma",
+    "address_lines": [
+      "Musterstraße 1",
+      "12345 Musterstadt",
+      "Deutschland"
+    ],
+    "email": "du@example.com",
+    "phone": "+49 000 0000000",
+    "tax_id": "Steuernummer: 00/000/00000"
+  },
+  "payment": {
+    "bank": "Deine Bank",
+    "iban": "DE00 0000 0000 0000 0000 00",
+    "bic": "XXXXXXXXXXX"
+  },
+  "currency": "EUR",
+  "tax_rate": 0,
+  "payment_terms_days": 14,
+  "small_business_note": "Gemäß § 19 UStG wird keine Umsatzsteuer berechnet.",
+  "notes": "Zahlbar innerhalb von 14 Tagen ohne Abzug."
+}
