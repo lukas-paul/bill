@@ -13,3 +13,6 @@ __pycache__/
 
 # macOS
 .DS_Store
+
+# Server log (desktop launcher)
+bill.log

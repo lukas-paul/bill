@@ -13,6 +13,7 @@ export read those sidecars.
 """
 
 import io
+import os
 import re
 import json
 import zipfile
@@ -389,6 +390,8 @@ BASE_CSS = """
     line-height: 1.3; }
   .card .row { display: block; margin: 16px 0; line-height: 1.6; }
   .card .btns { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 26px; }
+
+  #new_client_name { margin-bottom: 12px; }
 """
 
 
@@ -912,4 +915,4 @@ def generate():
 
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5000)
+    app.run(host="127.0.0.1", port=5060, debug=os.environ.get("BILL_DEBUG") == "1")
