@@ -44,7 +44,7 @@ Chrome window. Server output goes to `bill.log`. Re-run the script after moving
 the project folder. You can also double-click `Bill.command` directly.
 Set `BILL_DEBUG=1` to run Flask in debug mode.
 
-Open http://127.0.0.1:5060. Pick a config from the dropdown (sets language,
+Open http://127.0.0.1:5070. Pick a config from the dropdown (sets language,
 sender, bank, currency), fill in the client and line items (each row is
 `fixed` or `hourly`), watch the live total, hit **Generate PDF**. The PDF
 downloads and is also written to `out/`. Same `build_pdf()` as the CLI, so
